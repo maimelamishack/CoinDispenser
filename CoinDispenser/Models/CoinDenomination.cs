@@ -11,7 +11,7 @@ namespace CoinDispenser.Models
     [Table("CoinDispense")]
     public class CoinDenomination
     {
-        //Unique ID gerenator
+        //Unique ID gerenator to uniquely identify each entry
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int CoinDenominationId { get; set; }
